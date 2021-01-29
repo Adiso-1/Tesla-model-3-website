@@ -44,9 +44,106 @@ ul {
   list-style-type: none;
 }
 /* Utilities */
+.clr {
+  clear: both;
+}
+.side-nav-white {
+  position: fixed;
+  padding-top: 100px;
+  width: 150px;
+  height: 400px;
+}
+.side-nav-white div {
+  height: 10px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
+  margin-left: 20px;
+  overflow: auto;
+}
+.side-nav-white a {
+  opacity: 0;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 5px;
+}
+.side-nav-white a:hover {
+  opacity: 1;
+}
+.side-nav-black {
+  float: left;
+  position: absolute;
+  padding-top: 100px;
+  width: 145px;
+  height: 400px;
+}
+.side-nav-black li {
+  margin: 0;
+}
 
+.side-nav-black div {
+  height: 10px;
+  display: inline-block;
+  border: 1px solid #333;
+  background-color: #333;
+  margin-left: 20px;
+  overflow: auto;
+}
+.side-nav-black a {
+  opacity: 1;
+  font-size: 12px;
+  color: #333;
+  margin-left: 0px;
+}
+
+.side-nav-black a:hover {
+  opacity: 1;
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+.logo img {
+  width: 100px;
+}
+.btn-white {
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+  width: 160px;
+  height: 40px;
+  border-radius: 25px;
+  font-family: Gotham;
+  margin-top: 5px;
+  background: transparent;
+  border: #fff 2px solid;
+  padding: 0px !important;
+  cursor: pointer;
+}
+.btn-white:hover {
+  color: #333;
+  background: #fff;
+}
+.btn-black {
+  color: #333;
+  position: relative;
+  bottom: 20px;
+  width: 160px;
+  height: 40px;
+  border-radius: 25px;
+  font-family: Gotham;
+  margin-top: 5px;
+  background: transparent;
+  border: #333 2px solid;
+  padding: 0px !important;
+  cursor: pointer;
+}
+.btn-black:hover {
+  color: #fff;
+  background: #333;
+}
 /* Home - Model 3 */
-
 #home {
   background: url("../img/model-3-hero.jfif") no-repeat center center/cover;
   width: 100vw;
@@ -62,11 +159,6 @@ nav {
 
 #navbar {
   margin: 0 auto;
-}
-
-.logo {
-  float: left;
-  padding: 20px;
 }
 
 #navbar ul {
@@ -97,10 +189,6 @@ nav {
   margin-left: 400px;
 }
 
-.logo img {
-  width: 100px;
-}
-
 .hamburger img {
   width: 20px;
 }
@@ -120,32 +208,9 @@ nav {
   font-weight: 400;
 }
 
-.side-nav-white {
-  padding-top: 100px;
-  width: 150px;
-  height: 400px;
-}
-
-.section a {
-  opacity: 0;
-  font-size: 12px;
-  color: #fff;
-  margin-left: 5px;
-}
-.section a:hover {
-  opacity: 1;
-}
 .section li {
   display: inline-block;
   padding-bottom: 10px;
-}
-.section div {
-  height: 10px;
-  display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.404);
-  background-color: rgba(255, 255, 255, 0.404);
-  margin-left: 20px;
-  overflow: auto;
 }
 
 #home .footer-icon {
@@ -180,28 +245,14 @@ nav {
 .footer-icon p {
   padding: 10px;
 }
-.footer-icon button {
-  color: #fff;
-  position: relative;
-  bottom: 20px;
-  width: 160px;
-  height: 40px;
-  border-radius: 25px;
-  font-family: Gotham;
-  margin-top: 5px;
-  background: transparent;
-  border: #fff 2px solid;
-  padding: 0px !important;
-  cursor: pointer;
-}
-.footer-icon button:hover {
-  color: #333;
-  background: #fff;
-}
 .footer-icon .message {
-  position: relative;
-  top: 15px;
-  right: 30px;
+  width: 600px;
+  margin: 5px;
+  position: fixed;
+  border: none;
+}
+.footer-icon .message-circle {
+  float: right;
   width: 50px;
   height: 50px;
   border: #fff 2px solid;
@@ -209,10 +260,10 @@ nav {
   background: #fff;
   cursor: pointer;
 }
-.footer-icon .message {
-  padding: 9px;
-  float: right;
+.footer-icon .message-icon {
+  padding: 10px 0px 0px 8px;
 }
+
 .footer-arrow {
   max-width: 2000px;
   height: 1vh;
@@ -228,4 +279,54 @@ nav {
   transform: rotate(180deg);
   margin-top: 50px;
   cursor: pointer;
+}
+
+/* Safety */
+#safety {
+  width: 100vw;
+  height: 100vh;
+  font-family: Gotham;
+  color: #333;
+}
+#safety .logo {
+  position: relative;
+}
+.safety-left {
+  position: absolute;
+  float: left;
+  width: 25vw;
+  height: 100vh;
+  font-family: Gotham;
+}
+.safety-left header {
+  margin: 55px 0px 10px 0px;
+  padding: 0 55px;
+}
+.safety-left header h1 {
+  margin-bottom: 10px;
+}
+.safety-left header p {
+  line-height: 1.5em;
+}
+
+.section .nhtsa {
+  margin: 10px 50px 0 50px;
+  float: right;
+  background: #eeeeee;
+  height: 300px;
+  width: 320px;
+  border-radius: 20px;
+}
+.section .nhtsa h1 {
+  font-size: 20px;
+}
+.safety-right {
+  float: right;
+  background: url("../img/model_3_safety_hero.png") no-repeat center
+    center/cover;
+  width: 75vw;
+  height: 100vh;
+  font-family: Gotham;
+  color: #fff;
+  float: right;
 }
