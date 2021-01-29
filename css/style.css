@@ -318,13 +318,13 @@ nav {
 }
 .safety-left section {
   padding-top: 25px;
-  height: 50vh;
+  height: 55vh;
 }
 .safety-left footer {
   height: 20vh;
 }
 .safety-left header {
-  padding: 47px 0px 47px 47px;
+  padding: 50px;
 }
 .safety-left header h1 {
   margin-bottom: 10px;
@@ -383,15 +383,23 @@ nav {
   float: right;
 }
 .plus-circle {
+  margin-left: 40px;
   float: left;
-  width: 55px;
-  height: 55px;
-  border: #333 4px solid;
+  width: 50px;
+  height: 50px;
+  border: #333 3px solid;
   border-radius: 50px;
   background: #fff;
   cursor: pointer;
   float: left;
 }
-#safety footer img {
-  width: 50px;
+.plus-circle:hover {
+  background: #333;
+  color: #fff;
 }
+#safety footer h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Performance */
