@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothamBook.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothamMedium.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothamMedium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothamBold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* Utilities */
+
+/* Home - Model 3 */
+
+#home {
+  background: url("../img/model-3-hero.jfif") no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: Gotham;
+  color: #fff;
+}
+nav {
+  max-width: 2000px;
+  height: 15vh;
+  margin: 0 auto;
+}
+
+#navbar {
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#navbar .hamburger {
+  float: right;
+}
+#navbar ul li {
+  list-style: none;
+  display: inline;
+}
+
+#navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  padding: 20px 10px;
+}
+
+#navbar .menu {
+  float: right;
+}
+#navbar .right-menu {
+  margin-left: 400px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.hamburger img {
+  width: 20px;
+}
+#navbar .hamburger {
+  padding: 18px 10px 0px 0px;
+}
+
+#home .section {
+  width: 100vw;
+  height: 65vh;
+}
+
+.section h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Gotham;
+  font-weight: 400;
+}
+
+.side-nav-white {
+  padding-top: 100px;
+  width: 150px;
+  height: 400px;
+}
+
+.section a {
+  opacity: 0;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 5px;
+}
+.section a:hover {
+  opacity: 1;
+}
+.section li {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.section div {
+  height: 10px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
+  margin-left: 20px;
+  overflow: auto;
+}
+
+#home .footer-icon {
+  max-width: 2000px;
+  height: 10vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-icon div {
+  font-size: 500;
+  display: inline-block;
+  height: 6vh;
+  width: 150px;
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+.footer-icon div:nth-last-child(3),
+.footer-icon div:nth-last-child(2) {
+  border-right: none;
+}
+.footer-icon h3 {
+  font-size: 30px;
+}
+.footer-icon .speedometer-text {
+  display: inline;
+  padding: 10px;
+}
+.footer-icon .speedometer {
+  position: relative;
+  right: 27px;
+}
+.footer-icon p {
+  padding: 10px;
+}
+.footer-icon button {
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+  width: 160px;
+  height: 40px;
+  border-radius: 25px;
+  font-family: Gotham;
+  margin-top: 5px;
+  background: transparent;
+  border: #fff 2px solid;
+  padding: 0px !important;
+  cursor: pointer;
+}
+.footer-icon button:hover {
+  color: #333;
+  background: #fff;
+}
+.footer-icon .message {
+  position: relative;
+  top: 15px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: #fff 2px solid;
+  border-radius: 50px;
+  background: #fff;
+  cursor: pointer;
+}
+.footer-icon .message {
+  padding: 9px;
+  float: right;
+}
+.footer-arrow {
+  max-width: 2000px;
+  height: 1vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.down-arrow img {
+  font-size: 500;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  transform: rotate(180deg);
+  margin-top: 50px;
+  cursor: pointer;
+}
