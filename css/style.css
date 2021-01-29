@@ -403,3 +403,40 @@ nav {
 }
 
 /* Performance */
+
+#performance {
+  width: 100vw;
+  height: 100vh;
+  font-family: Gotham;
+  color: #333;
+}
+#performance .performance-up {
+  max-width: 100vw;
+  height: 70vh;
+  background: url("../img/page-3.jfif") no-repeat center center/cover;
+}
+#performance .performance-up .performance-content {
+  height: 62vh;
+}
+#performance .performance-up .footer-icon {
+  color: #fff;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+#performance .performance-up .footer-icon div {
+  border-right: #fff 1px solid;
+  text-align: left;
+  width: 33%;
+  padding: 0 10px;
+}
+#performance .performance-up .footer-icon div:last-child {
+  border-right: none;
+}
+#performance .performance-up .footer-icon p {
+  padding: 0;
+  font-size: 12px;
+}
+#performance .performance-up .footer-icon h3 {
+  font-size: 28px;
+}
