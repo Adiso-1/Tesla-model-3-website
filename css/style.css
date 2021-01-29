@@ -241,9 +241,10 @@ nav {
   padding: 10px;
 }
 .footer-icon .message {
-  width: 600px;
+  position: relative;
+  top: 20px;
+  left: 500px;
   margin: 5px;
-  position: fixed;
   border: none;
 }
 .footer-icon .message-circle {
@@ -504,6 +505,38 @@ nav {
 #all-wheel-drive .all-wheel-drive-up .all-wheel-drive-content {
   height: 55vh;
 }
+#all-wheel-drive
+  .all-wheel-drive-up
+  .all-wheel-drive-content
+  .side-nav-black-page-4 {
+  float: left;
+  position: absolute;
+  width: 150px;
+  height: 450px;
+  padding: 280px 0;
+}
+.side-nav-black-page-4 li {
+  margin-bottom: 10px;
+  display: list-item;
+}
+
+.side-nav-black-page-4 div {
+  height: 16px;
+  display: inline-table;
+  border: 1.5px solid #333;
+  background-color: #333;
+  margin-left: 20px;
+}
+.side-nav-black-page-4 a {
+  opacity: 0;
+  font-size: 12px;
+  color: #333;
+  margin-left: 0px;
+}
+
+.side-nav-black-page-4 a:hover {
+  opacity: 1;
+}
 #all-wheel-drive .all-wheel-drive-up .all-wheel-drive-content .up-arrow-icon {
   position: sticky;
   margin: 20px;
@@ -545,40 +578,36 @@ nav {
 }
 
 #all-wheel-drive .footer {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   padding-top: 40px;
-}
-#all-wheel-drive .footer .footer-left {
-  text-align: left;
-  float: left;
-  width: 35%;
 }
 #all-wheel-drive .footer .footer-right {
   padding-left: 30px;
   float: left;
-  width: 65%;
+  width: 70%;
 }
-#all-wheel-drive .footer .footer-left .quick-acceleration {
-  line-height: 1.5em;
-  height: 60%;
+
+#all-wheel-drive .footer .footer-left {
+  text-align: center;
+  width: 30%;
+  float: left;
+  line-height: 2em;
   padding-bottom: 12px;
 }
-#all-wheel-drive .footer .footer-left .quick-acceleration h3 {
-  font-size: 16px;
+#all-wheel-drive .footer .footer-left h3 {
+  font-size: 14px;
 }
-#all-wheel-drive .footer .footer-left .quick-acceleration h1 {
+#all-wheel-drive .footer .footer-left h1 {
   font-size: 24px;
 }
-#all-wheel-drive .footer .footer-left .learn-more .plus-circle {
-  float: left;
-  margin: 0px;
-  text-align: center;
-}
-#all-wheel-drive .footer .footer-left .learn-more p {
+#all-wheel-drive .footer .footer-left p {
   padding: 15px 10px 0 15px;
-  float: left;
 }
-#all-wheel-drive .footer .footer-left .learn-more .btn-black {
-  margin-top: 24px;
+#all-wheel-drive .footer .footer-left .btn-black {
+  position: relative;
+  top: 10px;
+}
+#all-wheel-drive .footer .footer-right p {
+  padding: 15px 0px 0 0px;
 }
