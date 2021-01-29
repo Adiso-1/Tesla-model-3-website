@@ -72,11 +72,11 @@ ul {
 .side-nav-black {
   float: left;
   position: absolute;
-  width: 140px;
+  width: 150px;
   height: 450px;
 }
 .side-nav-black li {
-  display: inline-table;
+  display: list-item;
 }
 
 .side-nav-black div {
@@ -206,7 +206,6 @@ nav {
 }
 
 .section li {
-  display: inline-block;
   padding-bottom: 10px;
 }
 
@@ -298,6 +297,15 @@ nav {
   color: #fff;
   float: right;
 }
+
+.safety-right .up-arrow-icon {
+  position: sticky;
+  margin: 20px;
+  float: right;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
 .safety-left {
   position: absolute;
   float: left;
@@ -306,8 +314,17 @@ nav {
   font-family: Gotham;
 }
 .safety-left header {
-  margin: 55px 0px 10px 0px;
-  padding: 0 55px;
+  height: 30vh;
+}
+.safety-left section {
+  padding-top: 25px;
+  height: 50vh;
+}
+.safety-left footer {
+  height: 20vh;
+}
+.safety-left header {
+  padding: 47px 0px 47px 47px;
 }
 .safety-left header h1 {
   margin-bottom: 10px;
@@ -318,7 +335,7 @@ nav {
 
 .section .nhtsa {
   margin: 30px 50px 0 50px;
-  padding-top: 20px;
+  padding-top: 22px;
   float: right;
   background: #eeeeee;
   height: 300px;
@@ -345,4 +362,36 @@ nav {
   float: right;
   width: 50px;
   height: 50px;
+}
+#safety footer {
+  height: 5vh;
+}
+#safety footer .learn-more {
+  padding: 25px;
+  width: 50%;
+  float: left;
+}
+
+#safety footer button {
+  margin-top: 50px;
+  width: 40%;
+}
+
+#safety footer p {
+  padding-top: 20px;
+  font-size: 14px;
+  float: right;
+}
+.plus-circle {
+  float: left;
+  width: 55px;
+  height: 55px;
+  border: #333 4px solid;
+  border-radius: 50px;
+  background: #fff;
+  cursor: pointer;
+  float: left;
+}
+#safety footer img {
+  width: 50px;
 }
