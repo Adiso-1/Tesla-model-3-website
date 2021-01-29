@@ -489,3 +489,96 @@ nav {
 }
 
 /* All-Wheel Drive */
+
+#all-wheel-drive {
+  width: 100vw;
+  height: 100vh;
+  font-family: Gotham;
+  color: #333;
+}
+#all-wheel-drive .all-wheel-drive-up {
+  max-width: 100vw;
+  height: 75vh;
+  background: url("../img/page-4.jfif") no-repeat center center/cover;
+}
+#all-wheel-drive .all-wheel-drive-up .all-wheel-drive-content {
+  height: 55vh;
+}
+#all-wheel-drive .all-wheel-drive-up .all-wheel-drive-content .up-arrow-icon {
+  position: sticky;
+  margin: 20px;
+  float: right;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon {
+  color: #fff;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon div {
+  line-height: 1.2em;
+  height: 80px;
+  border-right: #fff 1px solid;
+  text-align: left;
+  width: 33%;
+  padding: 0 10px;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon div:last-child {
+  border-right: none;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon div .sun {
+  border-right: none;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon p {
+  font-size: 12px;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon h3 {
+  padding: 0 0 6px 11px;
+  font-size: 28px;
+}
+#all-wheel-drive .all-wheel-drive-up .footer-icon img {
+  margin-top: 40px;
+  height: 35px;
+}
+
+#all-wheel-drive .footer {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+}
+#all-wheel-drive .footer .footer-left {
+  text-align: left;
+  float: left;
+  width: 35%;
+}
+#all-wheel-drive .footer .footer-right {
+  padding-left: 30px;
+  float: left;
+  width: 65%;
+}
+#all-wheel-drive .footer .footer-left .quick-acceleration {
+  line-height: 1.5em;
+  height: 60%;
+  padding-bottom: 12px;
+}
+#all-wheel-drive .footer .footer-left .quick-acceleration h3 {
+  font-size: 16px;
+}
+#all-wheel-drive .footer .footer-left .quick-acceleration h1 {
+  font-size: 24px;
+}
+#all-wheel-drive .footer .footer-left .learn-more .plus-circle {
+  float: left;
+  margin: 0px;
+  text-align: center;
+}
+#all-wheel-drive .footer .footer-left .learn-more p {
+  padding: 15px 10px 0 15px;
+  float: left;
+}
+#all-wheel-drive .footer .footer-left .learn-more .btn-black {
+  margin-top: 24px;
+}
