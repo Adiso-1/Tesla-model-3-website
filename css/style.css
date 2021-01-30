@@ -799,3 +799,96 @@ nav {
   margin-top: 20px;
   float: right;
 }
+/* INTERIOR */
+#interior {
+  height: 100vh;
+  max-width: 2000px;
+}
+#interior .main {
+  width: 100vw;
+  height: 75vh;
+  background: url("../img/page-7.jfif") no-repeat center center/cover;
+  padding: 20px;
+}
+#interior .main .tesla-icon {
+  float: left;
+  width: 100px;
+}
+#autopilot .main .up-arrow-icon {
+  float: right;
+  width: 20px;
+}
+#interior .main .box-1,
+#interior .main .box-2,
+#interior .main .box-3 {
+  position: relative;
+  left: 75%;
+  line-height: 1.7em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  width: 500px;
+}
+
+#interior .main h1 {
+  width: 300px;
+}
+
+#interior .main .box-2 img {
+  height: 40px;
+  width: 40px;
+}
+#interior .main .box-3 img {
+  width: 60px;
+}
+#interior .main .box-3 h1 {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+#interior .main .box-1 {
+  padding-top: 100px;
+}
+#interior .autopilot-footer {
+  padding-top: 60px;
+  width: 1000px;
+  margin: auto;
+}
+#interior .autopilot-footer-left {
+  width: 40%;
+  float: left;
+}
+#interior .autopilot-footer-right {
+  float: left;
+  width: 60%;
+}
+#interior .autopilot-footer-left > p {
+  font-size: 20px;
+  text-align: left;
+}
+#interior .autopilot-footer-left > h1 {
+  padding-bottom: 15px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+#interior .autopilot-footer-left .plus {
+  border: 1px #333 solid;
+  border-radius: 50px;
+  text-align: center;
+  float: left;
+  width: 40px;
+}
+#interior .autopilot-footer-left .plus:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+#interior .autopilot-footer-left .autopilot-learn {
+  padding: 10px 0 10px 30px;
+  float: left;
+}
+#interior .autopilot-footer-left .btn-black {
+  margin-top: 20px;
+  float: right;
+}
