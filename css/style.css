@@ -1,31 +1,22 @@
 @font-face {
-  font-family: "Gotham";
+  font-family: "Gotham-Book";
   src: url(../fonts/GothamBook.ttf) format("truetype");
-  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url(../fonts/GothamLight.otf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham-Medium ";
+  src: url(../fonts/GothamMedium.ttf) format("truetype");
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Gotham";
-  src: url(../fonts/GothamMedium.ttf) format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gotham";
-  src: url(../fonts/GothamMedium.ttf) format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url(../fonts/GothamBold.ttf) format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 /* CSS Reset */
 * {
+  font-family: "Gotham-Book";
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -110,7 +101,6 @@ ul {
   width: 160px;
   height: 40px;
   border-radius: 25px;
-  font-family: Gotham;
   margin-top: 5px;
   background: transparent;
   border: #fff 2px solid;
@@ -128,7 +118,6 @@ ul {
   width: 160px;
   height: 40px;
   border-radius: 25px;
-  font-family: Gotham;
   margin-top: 5px;
   background: transparent;
   border: #333 2px solid;
@@ -144,7 +133,6 @@ ul {
   background: url("../img/model-3-hero.jfif") no-repeat center center/cover;
   width: 100vw;
   height: 100vh;
-  font-family: Gotham;
   color: #fff;
 }
 nav {
@@ -200,7 +188,6 @@ nav {
 .section h1 {
   font-size: 40px;
   text-align: center;
-  font-family: Gotham;
   font-weight: 400;
 }
 
@@ -281,7 +268,6 @@ nav {
 #safety {
   width: 100vw;
   height: 100vh;
-  font-family: Gotham;
   color: #333;
 }
 #safety .logo {
@@ -293,7 +279,6 @@ nav {
     center/cover;
   width: 75vw;
   height: 100vh;
-  font-family: Gotham;
   color: #fff;
   float: right;
 }
@@ -311,7 +296,6 @@ nav {
   float: left;
   width: 25vw;
   height: 100vh;
-  font-family: Gotham;
 }
 .safety-left header {
   height: 30vh;
@@ -407,7 +391,6 @@ nav {
 #performance {
   width: 100vw;
   height: 100vh;
-  font-family: Gotham;
   color: #333;
 }
 #performance .performance-up {
@@ -494,7 +477,6 @@ nav {
 #all-wheel-drive {
   width: 100vw;
   height: 100vh;
-  font-family: Gotham;
   color: #333;
 }
 #all-wheel-drive .all-wheel-drive-up {
@@ -545,6 +527,7 @@ nav {
   width: 25px;
   cursor: pointer;
 }
+
 #all-wheel-drive .all-wheel-drive-up .footer-icon {
   color: #fff;
   text-align: center;
@@ -578,6 +561,7 @@ nav {
 }
 
 #all-wheel-drive .footer {
+  height: 25vh;
   max-width: 900px;
   margin: auto;
   padding-top: 40px;
@@ -624,6 +608,12 @@ nav {
   width: 80%;
   background: url("../img/page-5-main.jfif") no-repeat center center/cover;
 }
+
+#range .up-arrow-icon {
+  padding-top: 20px;
+  float: right;
+  width: 20px;
+}
 #range .main .icon {
   display: block;
   height: 85vh;
@@ -645,6 +635,9 @@ nav {
   float: left;
   width: 33%;
 }
+#range .main .main-footer h1 {
+  padding-bottom: 10px;
+}
 #range .main .main-footer .box-2 {
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
@@ -654,5 +647,33 @@ nav {
   float: right;
   height: 100vh;
   width: 20%;
-  padding: 30px;
+  padding-left: 20px;
+}
+#range .side .map {
+  height: 600px;
+  padding-top: 50px;
+}
+#range .side .map img {
+  width: 350px;
+}
+#range .side .side-box-1 p {
+  padding: 20px 0;
+}
+
+#range .side .range-side-down img {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  width: 50px;
+}
+#range .side .range-side-down p {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+}
+#range .side .range-side-down button {
+  position: relative;
+  left: 20px;
+  top: -10px;
+  display: inline-block;
 }
