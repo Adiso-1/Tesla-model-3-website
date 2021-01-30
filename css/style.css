@@ -497,26 +497,26 @@ nav {
   height: 450px;
   padding: 280px 0;
 }
-.side-nav-black-page-4 li {
+#all-wheel-drive .side-nav-black-page-4 li {
   margin-bottom: 10px;
   display: list-item;
 }
 
-.side-nav-black-page-4 div {
+#all-wheel-drive .side-nav-black-page-4 div {
   height: 16px;
   display: inline-table;
   border: 1.5px solid #333;
   background-color: #333;
   margin-left: 20px;
 }
-.side-nav-black-page-4 a {
+#all-wheel-drive .side-nav-black-page-4 a {
   opacity: 0;
   font-size: 12px;
   color: #333;
   margin-left: 0px;
 }
 
-.side-nav-black-page-4 a:hover {
+#all-wheel-drive .side-nav-black-page-4 a:hover {
   opacity: 1;
 }
 #all-wheel-drive .all-wheel-drive-up .all-wheel-drive-content .up-arrow-icon {
@@ -661,12 +661,16 @@ nav {
 }
 
 #range .side .range-side-down img {
+  border: 2.5px solid #333;
+  border-radius: 50px;
   display: inline-block;
   position: relative;
+  right: 5px;
   top: 10px;
   width: 50px;
 }
 #range .side .range-side-down p {
+  font-size: 12px;
   position: relative;
   bottom: 10px;
   display: inline-block;
@@ -676,4 +680,78 @@ nav {
   left: 20px;
   top: -10px;
   display: inline-block;
+}
+
+/* AutoPilot */
+#autopilot {
+  height: 100vh;
+  max-width: 2000px;
+}
+#autopilot .main {
+  width: 100vw;
+  height: 75vh;
+  background: url("../img/page-6.png") no-repeat center center/cover;
+  padding: 20px;
+}
+#autopilot .main a {
+  font-family: "Gotham-Book";
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+}
+#autopilot .main ul {
+  list-style: none;
+  margin-top: 280px;
+  position: absolute;
+}
+#autopilot .main li {
+  padding-bottom: 10px;
+}
+#autopilot .main .sign-stick {
+  opacity: 0.5;
+  border: 0.5px #333 solid;
+  background: #333;
+  margin-right: 5px;
+}
+#autopilot .main li a {
+  opacity: 0;
+}
+#autopilot .main li a:hover {
+  opacity: 1;
+}
+#autopilot .main .tesla-icon {
+  float: left;
+  width: 100px;
+}
+#autopilot .main .up-arrow-icon {
+  float: right;
+  width: 20px;
+}
+#autopilot .main .box-1,
+#autopilot .main .box-2,
+#autopilot .main .box-3 {
+  line-height: 1.7em;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#autopilot .main h1 {
+  width: 30px;
+}
+#autopilot .main .box-3 .sensors {
+  position: relative;
+  bottom: 10px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  padding: 10px;
+}
+#autopilot .main .box-3 h1 {
+  line-height: 1.5em;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#autopilot .main .box-1 {
+  padding-top: 100px;
 }
