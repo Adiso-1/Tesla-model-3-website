@@ -611,3 +611,48 @@ nav {
 #all-wheel-drive .footer .footer-right p {
   padding: 15px 0px 0 0px;
 }
+
+/* Range */
+
+#range {
+  height: 100vh;
+  max-width: 2000px;
+}
+#range .main {
+  float: left;
+  height: 100vh;
+  width: 80%;
+  background: url("../img/page-5-main.jfif") no-repeat center center/cover;
+}
+#range .main .icon {
+  display: block;
+  height: 85vh;
+}
+#range .main .icon img {
+  margin: 20px;
+  width: 100px;
+}
+#range .main .main-footer {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#range .main .main-footer div {
+  padding-left: 20px;
+  text-align: left;
+  color: #fff;
+  line-height: 1.5em;
+  float: left;
+  width: 33%;
+}
+#range .main .main-footer .box-2 {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+#range .side {
+  float: right;
+  height: 100vh;
+  width: 20%;
+  padding: 30px;
+}
