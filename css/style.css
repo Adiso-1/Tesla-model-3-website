@@ -745,6 +745,7 @@ nav {
   border: 2px solid #333;
   border-radius: 50px;
   padding: 10px;
+  font-weight: bold;
 }
 #autopilot .main .box-3 h1 {
   line-height: 1.5em;
@@ -754,4 +755,47 @@ nav {
 
 #autopilot .main .box-1 {
   padding-top: 100px;
+}
+#autopilot .autopilot-footer {
+  padding-top: 60px;
+  width: 1000px;
+  margin: auto;
+}
+#autopilot .autopilot-footer-left {
+  width: 40%;
+  float: left;
+}
+#autopilot .autopilot-footer-right {
+  float: left;
+  width: 60%;
+}
+#autopilot .autopilot-footer-left > p {
+  font-size: 20px;
+  text-align: left;
+}
+#autopilot .autopilot-footer-left > h1 {
+  padding-bottom: 15px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+#autopilot .autopilot-footer-left .plus {
+  border: 1px #333 solid;
+  border-radius: 50px;
+  text-align: center;
+  float: left;
+  width: 40px;
+}
+#autopilot .autopilot-footer-left .plus:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+#autopilot .autopilot-footer-left .autopilot-learn {
+  padding: 10px 0 10px 30px;
+  float: left;
+}
+#autopilot .autopilot-footer-left .btn-black {
+  margin-top: 20px;
+  float: right;
 }
